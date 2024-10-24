@@ -68,7 +68,6 @@ function BlogForm({ open, onClose }) {
     name: "added_schemas",
   });
   const onSubmit = handleSubmit(async (data) => {
-    console.log("HIIIEE");
     try {
       const options = {
         segment_name: get(data, "name"),
